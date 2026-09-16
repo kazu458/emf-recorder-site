@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EMF Recorder – プライバシーポリシー / Privacy Policy</title>
+<style>
+  body { max-width: 720px; margin: 0 auto; padding: 24px 16px 64px; font: 16px/1.7 system-ui, -apple-system, "Segoe UI", Roboto, "Hiragino Sans", "Noto Sans JP", sans-serif; color: #1a1f28; background: #fff; }
+  h1 { font-size: 1.5rem; margin: 0 0 4px; }
+  h2 { font-size: 1.15rem; margin: 2em 0 .5em; border-bottom: 1px solid #ddd; padding-bottom: 4px; }
+  .meta { color: #666; font-size: .9rem; }
+  .lang { display: flex; gap: 12px; margin: 16px 0 32px; font-size: .95rem; }
+  table { border-collapse: collapse; width: 100%; font-size: .95rem; }
+  th, td { border: 1px solid #ddd; padding: 6px 10px; text-align: left; vertical-align: top; }
+  th { background: #f4f5f7; }
+  hr.sep { margin: 56px 0; border: 0; border-top: 2px solid #1a1f28; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #1a1f28; color: #eef1f5; }
+    th { background: #262c38; } th, td { border-color: #3a4150; } h2 { border-color: #3a4150; } .meta { color: #a0a8b5; } hr.sep { border-color: #eef1f5; } a { color: #4fd8ff; }
+  }
+</style>
+</head>
+<body>
+
+<div class="lang"><a href="#ja">日本語</a> · <a href="#en">English</a></div>
+
+<section id="ja">
+<h1>EMF Recorder プライバシーポリシー</h1>
+<p class="meta">最終更新日: 2026年9月16日</p>
+
+<p>EMF Recorder（以下「本アプリ」）は、Android 端末の磁気センサーの値を記録し、波形と履歴として表示するアプリです。本ポリシーは、本アプリが扱う情報とその取り扱いについて説明します。</p>
+
+<h2>1. 基本方針</h2>
+<ul>
+  <li>本アプリの記録データは<strong>お使いの端末内にのみ</strong>保存されます。開発者がデータを収集・閲覧することはありません。</li>
+  <li>開発者はサーバーを運用しておらず、アカウント登録も不要です。</li>
+  <li>本アプリは解析（アナリティクス）SDK やクラッシュレポート SDK を含みません。</li>
+</ul>
+
+<h2>2. 本アプリが端末内に保存する情報</h2>
+<table>
+  <tr><th>情報</th><th>内容</th><th>用途</th></tr>
+  <tr><td>センサー値</td><td>磁気センサー（磁力計）の測定値（μT）とその統計値・時刻</td><td>波形・履歴の表示、変化の通知</td></tr>
+  <tr><td>メモ</td><td>お客様が入力したメモ本文と時刻</td><td>履歴上への表示・検索</td></tr>
+  <tr><td>設定</td><td>表示や通知に関する設定、記録のオン／オフ</td><td>アプリの動作</td></tr>
+</table>
+<p>これらは本アプリを削除（アンインストール）すると端末から消去されます。設定画面の「すべての記録を削除」からも消去できます。</p>
+
+<h2>3. Google Drive バックアップ（任意・Pro 機能）</h2>
+<p>お客様が有効にした場合に限り、本アプリは記録データを圧縮して、お客様ご自身の Google Drive 上の<strong>アプリ専用領域（appDataFolder）</strong>に保存します。</p>
+<ul>
+  <li>Google アカウントへのアクセスは <code>drive.appdata</code> スコープのみを要求します。Drive 内の他のファイルにはアクセスできません。</li>
+  <li>この領域のデータは本アプリ以外から閲覧できず、開発者もアクセスできません。</li>
+  <li>Google Drive の設定（「アプリの管理」）から本アプリの接続を解除すると、保存されたデータは削除されます。</li>
+  <li>Google による取り扱いは <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google プライバシーポリシー</a>に従います。</li>
+</ul>
+
+<h2>4. アプリ内課金</h2>
+<p>Pro 機能の購入は Google Play の決済システムで処理されます。本アプリは購入の有無を確認するために Google Play から購入情報（商品 ID・購入トークン）を受け取りますが、氏名・住所・支払い情報などを受け取ることはありません。</p>
+
+<h2>5. 広告</h2>
+<p>無料版では将来的に広告（Google AdMob）を表示する場合があります。その場合、広告配信のために Google が広告 ID 等を取得することがあります。詳細は <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Google の広告に関するポリシー</a>をご覧ください。Pro 版では広告を表示しません。</p>
+
+<h2>6. データの書き出し</h2>
+<p>設定画面の書き出し機能（ZIP / CSV）は、お客様の操作によってのみ実行され、お客様が指定した保存先にファイルを作成します。書き出したファイルの取り扱いはお客様の管理下にあります。</p>
+
+<h2>7. 端末の権限</h2>
+<table>
+  <tr><th>権限</th><th>目的</th></tr>
+  <tr><td>通知</td><td>バックグラウンド記録中であることの表示、変化の通知</td></tr>
+  <tr><td>フォアグラウンドサービス / スリープ解除の維持</td><td>画面オフ中も記録を続けるため</td></tr>
+  <tr><td>起動時の自動開始</td><td>端末の再起動後に記録を再開するため</td></tr>
+  <tr><td>インターネット</td><td>Google Drive バックアップ・アプリ内課金・（将来の）広告のため。記録データ自体を送信することはありません</td></tr>
+</table>
+
+<h2>8. 子どものプライバシー</h2>
+<p>本アプリは 13 歳未満の子どもを対象としておらず、子どもから意図的に個人情報を収集することはありません。</p>
+
+<h2>9. 免責</h2>
+<p>本アプリの表示値は端末に内蔵された磁気センサーによるもので、測定精度は保証されません。医療・安全・法的判断の根拠として使用しないでください。</p>
+
+<h2>10. 本ポリシーの変更</h2>
+<p>本ポリシーを変更する場合は、このページで公開し、最終更新日を更新します。</p>
+
+<h2>11. お問い合わせ</h2>
+<p>本アプリまたは本ポリシーに関するお問い合わせ: <a href="mailto:CONTACT_EMAIL">CONTACT_EMAIL</a></p>
+</section>
+
+<hr class="sep">
+
+<section id="en" lang="en">
+<h1>EMF Recorder Privacy Policy</h1>
+<p class="meta">Last updated: September 16, 2026</p>
+
+<p>EMF Recorder ("the app") records the values of your Android device's magnetic field sensor and shows them as a live waveform and history. This policy explains what information the app handles and how.</p>
+
+<h2>1. In short</h2>
+<ul>
+  <li>Your recordings are stored <strong>only on your device</strong>. The developer does not collect or view them.</li>
+  <li>The developer operates no server, and no account is required.</li>
+  <li>The app contains no analytics or crash-reporting SDK.</li>
+</ul>
+
+<h2>2. Information stored on your device</h2>
+<table>
+  <tr><th>Information</th><th>What</th><th>Purpose</th></tr>
+  <tr><td>Sensor readings</td><td>Magnetometer values (μT), their statistics and timestamps</td><td>Waveform and history display, change alerts</td></tr>
+  <tr><td>Notes</td><td>Note text you enter and its timestamp</td><td>Shown on and searched in the history</td></tr>
+  <tr><td>Settings</td><td>Display and notification preferences, recording on/off</td><td>App behaviour</td></tr>
+</table>
+<p>All of this is removed when you uninstall the app. You can also delete it from Settings → "Delete all records".</p>
+
+<h2>3. Google Drive backup (optional, Pro feature)</h2>
+<p>Only if you turn it on, the app compresses your recordings and stores them in the <strong>app-private area (appDataFolder)</strong> of your own Google Drive.</p>
+<ul>
+  <li>The app requests only the <code>drive.appdata</code> scope. It cannot access any other file in your Drive.</li>
+  <li>Data in this area is not visible to other apps or to the developer.</li>
+  <li>Disconnecting the app in Google Drive settings ("Manage apps") deletes the stored data.</li>
+  <li>Google's handling is governed by the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>.</li>
+</ul>
+
+<h2>4. In-app purchases</h2>
+<p>Pro purchases are processed by Google Play. To verify ownership the app receives purchase information (product ID and purchase token) from Google Play; it never receives your name, address or payment details.</p>
+
+<h2>5. Advertising</h2>
+<p>The free version may in the future show ads served by Google AdMob, in which case Google may collect identifiers such as the advertising ID to deliver ads. See <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Google's advertising policies</a> for details. The Pro version shows no ads.</p>
+
+<h2>6. Export</h2>
+<p>Export (ZIP / CSV) runs only when you trigger it and writes a file to a location you choose. Exported files are under your control.</p>
+
+<h2>7. Device permissions</h2>
+<table>
+  <tr><th>Permission</th><th>Purpose</th></tr>
+  <tr><td>Notifications</td><td>Showing that background recording is running; change alerts</td></tr>
+  <tr><td>Foreground service / keep awake</td><td>Keep recording while the screen is off</td></tr>
+  <tr><td>Run at startup</td><td>Resume recording after the device restarts</td></tr>
+  <tr><td>Internet</td><td>Google Drive backup, in-app purchases and (future) ads. Recordings themselves are never transmitted</td></tr>
+</table>
+
+<h2>8. Children's privacy</h2>
+<p>The app is not directed at children under 13 and does not knowingly collect personal information from children.</p>
+
+<h2>9. Disclaimer</h2>
+<p>Readings come from the magnetic sensor built into your device and their accuracy is not guaranteed. Do not rely on them for medical, safety or legal decisions.</p>
+
+<h2>10. Changes to this policy</h2>
+<p>Changes will be published on this page with an updated date.</p>
+
+<h2>11. Contact</h2>
+<p>Questions about the app or this policy: <a href="mailto:CONTACT_EMAIL">CONTACT_EMAIL</a></p>
+</section>
+
+</body>
+</html>
